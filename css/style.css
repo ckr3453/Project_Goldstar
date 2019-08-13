@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family:Raleway;
+	src:url(../fonts/raleway/Raleway-Thin.ttf);
+}
+
+div.container{
+	background:url(../img/main_background.jpeg) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+h1.logo{
+	font-family:Raleway;
+	font-size:10em;
+	color:white;
+	text-shadow:0 0 50px white;
+	padding:50px;
+	font-weight:80;
+	float:left;
+	position:absolute;
+	z-index:5;
+}
+div#registration{
+	float:right;
+	padding:50px;
+}
+div#registration form input{
+	width:350px;
+	height: 50px;
+	display:block;
+	margin-top:2px;
+	padding-left:10px;
+	font-size:1.1em;
+	font-family:Raleway;
+	font-weight:500;
+	border-radius:50px;
+	border:none;
+	outline:none;
+	transition-duration:0.5s;
+}
+div#registration form input[type="button"]{
+	width:100px;
+	height:40px;
+	background-color:#45e;
+	text-align:center;
+	padding-left:0;
+	color:#fff;
+}
+div#registration form input:focus{
+	box-shadow: 0 0 8px aqua;
+}
